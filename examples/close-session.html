@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Overhack Anti-Cheat API</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="assets/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<!--===============================================================================================-->
+
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+	<div class="contact1">
+		<p style="display: block; width: 100%; text-align: center; color: white;">Developed by Marco Cusano</p>
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="assets/images/img-01.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form" method="POST" action="https://www.overhack.cloud/api/2.0/session.php">
+				<span class="contact1-form-title">
+					Close Session
+				</span>
+
+				<div class="wrap-input1 validate-input" data-validate = "Your Overhack API Key">
+					<input class="input1" type="text" name="callback" placeholder="Overhack API Key" required>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Username or Email required">
+					<input class="input1" type="text" name="username" placeholder="Username or Email" required>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Please add a valid password">
+					<input class="input1" type="password" name="password" placeholder="Type your password" required>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<label style="margin: 5px 20px;">Task: </label><input class="hide hidden" type="text" name="task" value="close" required>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Update Session
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+		<p style="display: block; width: 100%; text-align: center;"><a style="color: white; text-decoration: underline;" href="https://www.overhack.cloud">Visit the official Overhack WebSite.</a></p>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/vendor/bootstrap/js/popper.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!--===============================================================================================-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
